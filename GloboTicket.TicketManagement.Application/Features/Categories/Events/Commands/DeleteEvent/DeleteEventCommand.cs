@@ -5,6 +5,7 @@ namespace GloboTicket.TicketManagement.Application.Features.Categories.Events.Co
 {
     public class DeleteEventCommand:IRequest
     {
+        //testing
         public Guid Id { get; set; }
     }
 }
