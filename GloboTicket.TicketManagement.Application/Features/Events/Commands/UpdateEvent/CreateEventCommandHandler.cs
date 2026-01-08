@@ -1,11 +1,10 @@
 ﻿using AutoMapper;
 using GloboTicket.TicketManagement.Application.Contracts.Persistence;
-using GloboTicket.TicketManagement.Application.Features.Categories.Events.Commands.CreateEvent;
 using GloboTicket.TicketManagement.Domain.Entities;
 using MediatR;
 using System.Collections.Generic;
 
-namespace GloboTicket.TicketManagement.Application.Features.Categories.Events.Commands.UpdateEvent
+namespace GloboTicket.TicketManagement.Application.Features.Events.Commands.UpdateEvent
 {
     public class UpdateEventCommandHandler : IRequestHandler<UpdateEventCommand>
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GloboTicket.TicketManagement.Application.Features.Categories.Events.Queries.GetEventDetails
+namespace GloboTicket.TicketManagement.Application.Features.Events.Queries.GetEventDetails
 {
     public class EventDetailsVm
     {

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MediatR;
 
-namespace GloboTicket.TicketManagement.Application.Features.Categories.Events.Queries.GetEventDetails
+namespace GloboTicket.TicketManagement.Application.Features.Events.Queries.GetEventDetails
 {
     public class GetEventDetailsQuery:IRequest<EventDetailsVm>
     {

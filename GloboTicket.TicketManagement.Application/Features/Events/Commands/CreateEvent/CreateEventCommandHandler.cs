@@ -4,7 +4,7 @@ using GloboTicket.TicketManagement.Domain.Entities;
 using MediatR;
 using System.Collections.Generic;
 
-namespace GloboTicket.TicketManagement.Application.Features.Categories.Events.Commands.CreateEvent
+namespace GloboTicket.TicketManagement.Application.Features.Events.Commands.CreateEvent
 {
     public class CreateEventCommandHandler : IRequestHandler<CreateEventCommand,Guid>
     {
